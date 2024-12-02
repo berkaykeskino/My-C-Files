@@ -51,7 +51,7 @@ public:
             if (value == (*searchPointer).value)
             {
                 found = currentPositions[i];
-                currentPositions[found] = -1;
+                currentPositions[i] = -1;
                 break;
             }
         }
